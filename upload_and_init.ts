@@ -121,6 +121,10 @@ async function main() {
   );
 
   const { terra, wallet } = newClient();
+  const adminAddress = process.env.ADMIN
+    ? process.env.ADMIN
+    : wallet.key.accAddress;
+
   const codeId = await uploadContract(
     terra,
     wallet,
@@ -133,7 +137,7 @@ async function main() {
   const contractAddress = await instantiateContract(
     terra,
     wallet,
-    wallet.key.accAddress,
+    adminAddress,
     codeId,
     initMsg
   );
