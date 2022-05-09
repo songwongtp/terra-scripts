@@ -112,6 +112,7 @@ const initMsg = {
   astroport_factory_address: "terra15jsahkaf9p0qu8ye873p0u5z6g07wdad0tdq43",
   aust_token_address: "terra1ajt556dpzvjwl0kl5tzku3fc3p3knkg9mkv8jl",
   anchor_market_contract: "terra15dwd5mj8v59wpj0wvt233mf5efdff808c5tkal",
+  profit_threshold: "3000000", // 3 UST
 };
 
 async function main() {
