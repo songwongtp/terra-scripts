@@ -108,7 +108,7 @@ export async function instantiateContract(
 const PROJECT = "bbv";
 const initMsg = {
   vault_address: "terra1zljypewdglfl5f6ntfl2r3epgxjmzh05qnjknv",
-  incentive_address: "terra1x7ug3ehdtdz5w2q37l2l9rd0u5ekv2gvzfq0y6",
+  incentive_address: "terra1yquzgj5hrm7y40cfuk69smuc2swz95ewa4ra9a",
   astroport_factory_address: "terra15jsahkaf9p0qu8ye873p0u5z6g07wdad0tdq43",
   aust_token_address: "terra1ajt556dpzvjwl0kl5tzku3fc3p3knkg9mkv8jl",
   anchor_market_contract: "terra15dwd5mj8v59wpj0wvt233mf5efdff808c5tkal",
